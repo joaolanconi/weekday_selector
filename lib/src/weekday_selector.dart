@@ -8,13 +8,13 @@ import 'weekday_selector_theme.dart';
 /// The default value corresponds to the value of
 /// dateTimeSymbolMap()['en_ISO].WEEKDAYS.
 const defaultWeekdays = <String>[
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
+  'Domingo',
+  'Segunda',
+  'Terça',
+  'Quarta',
+  'Quinta',
+  'Sexta',
+  'Sábado',
 ];
 
 /// The values used for the weekday buttons if the short names list is omitted.
@@ -22,12 +22,12 @@ const defaultWeekdays = <String>[
 /// The default value corresponds to the value of
 /// dateTimeSymbolMap()['en_ISO].NARROWWEEKDAYS.
 const defaultShortWeekdays = <String>[
+  'D',
   'S',
-  'M',
   'T',
-  'W',
-  'T',
-  'F',
+  'Q',
+  'Q',
+  'S',
   'S',
 ];
 
